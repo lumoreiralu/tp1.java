@@ -62,9 +62,27 @@ public class miproyecto {
 			System.out.println(numero5 + " " + numero4 + " " + numero3 + " " + numero2 + " " +numero1);
 	}
 }*/
-
+/* 
 //consigna 5
 
+import java.util.Scanner;
+public class miproyecto {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese nombre:");
+        String nombre = scanner.nextLine();
+        System.out.println("Ingrese edad:");
+        int edad = scanner.nextInt();
+        System.out.println("Ingrese altura:");
+        double altura = scanner.nextDouble();
+		scanner.nextLine();
+        System.out.println("Ingrese ocupacion:");
+		String ocupacion = scanner.nextLine();		
+        System.out.println(nombre + " " + edad + " " + altura + " " + ocupacion);
+		}
+}*/
+
+//consigna 6
 public class miproyecto {
 	public static void main(String[] args) {
 		System.out.println("hola mundo");
