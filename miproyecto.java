@@ -82,9 +82,117 @@ public class miproyecto {
 		}
 }*/
 
+/* 
 //consigna 6
+import java.util.Scanner;
 public class miproyecto {
 	public static void main(String[] args) {
-		System.out.println("hola mundo");
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("ingrese tipo de factura");
+		String tipoFactura = scanner.nextLine();
+		System.out.println("ingrese numero de factura");
+		int numeroFactura = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("ingrese nombre del cliente");
+		String nombreCliente = scanner.nextLine();
+		System.out.println("ingrese producto 1");
+		String producto1 = scanner.nextLine();
+		System.out.println("ingrese valor producto 1");
+		double valorProducto1 = scanner.nextDouble();
+		scanner.nextLine();
+		System.out.println("ingrese producto 2");
+		String producto2 = scanner.nextLine();
+		System.out.println("ingrese valor producto 2");
+		double valorProducto2 = scanner.nextDouble();
+		scanner.nextLine();
+		System.out.println("ingrese producto 3");
+		String producto3 = scanner.nextLine();
+		System.out.println("ingrese valor producto 3");
+		double valorProducto3 = scanner.nextDouble();
+		scanner.nextLine();
+		System.out.println("ingrese producto 4");
+		String producto4 = scanner.nextLine();
+		System.out.println("ingrese valor producto 4");
+		double valorProducto4 = scanner.nextDouble();
+		scanner.nextLine();
+		double total= valorProducto1 + valorProducto2 + valorProducto3 + valorProducto4;
+		System.out.println("Factura" + "    " + tipoFactura + "    " + "N"+ numeroFactura);
+		System.out.println("Nombre:"+" " + "" + nombreCliente);
+		System.out.println("Producto" + "     " + "Precio");
+		System.out.println(producto1 + "       " + valorProducto1);
+		System.out.println(producto2 + "       " + valorProducto2);
+		System.out.println(producto3 + "       " + valorProducto3);
+		System.out.println(producto4 + "       " + valorProducto4);
+		System.out.println("Importe total" + "     " + total );
+	}
+}*/
+
+/* 
+//Consiga 7
+
+import java.util.Scanner;
+public class miproyecto {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("ingrese valor 1");
+		double valor1 = scanner.nextDouble();
+		System.out.println("ingrese valor 2");
+		double valor2 = scanner.nextDouble();
+		System.out.println("ingrese valor 3");
+		double valor3 = scanner.nextDouble();
+		scanner.nextLine();
+		double Resultado = ((valor1/valor2) - valor3);
+		System.out.println("Resultado" + "  " + Resultado);
+	}
+}*/
+
+/* 
+//ejercicio 8
+
+public class miproyecto {
+	public static void main(String[] args) {
+		
+		System.out.println("Tabla de verdad OR");
+		System.out.println("false or false es: " + (false || false) );
+		System.out.println("false or true es: " + (false || true));
+		System.out.println("true or true es: " + (true || true));
+		System.out.println("true or false es: " + ( true || false));
+		System.out.println("Tabla de verdad AND");
+		System.out.println("false or false es: " + (false && false) );
+		System.out.println("false or true es: " + (false && true));
+		System.out.println("true or true es: " + (true && true));
+		System.out.println("true or false es: " + ( true && false));
+	}
+}*/
+
+/* 
+//ejercicio 9 
+
+import java.util.Scanner;
+public class miproyecto {
+	public static void main(String[] args) {
+		try{ 
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ingrese un numero entero");
+		int numero = scanner.nextInt();
+		double numDiv2 = ( (double) numero /2);
+		System.err.println("Numero dividido dos es: " + numDiv2); 
+		double numDiv3 = ((double) numero /3);
+		System.err.println("Numero dividido tres es: " + numDiv3); 
+		double numDiv4 = ((double) numero /4);
+		System.err.println("Numero dividido cuatro es: " + numDiv4);
+		} 
+		catch (Exception exception){
+			System.out.println(exception);
+		}
+	}
+}*/
+
+
+//ejercicio 10
+
+public class miproyecto{
+	public static void main(String[] args) {
+		
 	}
 }
