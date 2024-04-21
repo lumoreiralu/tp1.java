@@ -191,8 +191,75 @@ public class miproyecto {
 
 //ejercicio 10
 
-public class miproyecto{
+
+
+
+/*tp ejercicio 1.e 
+import java.util.Scanner;
+
+public class miproyecto {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese una letra");
+        char letra = scanner.next().charAt(0);
+        switch (letra) {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                System.out.println("Es vocal");
+                break;
+            default:
+                System.out.println("Es consonante");
+        }
+        scanner.close(); 
+    }
+} */
+
+/* 
+//tp 2 ejercicio 2
+
+import java.util.Scanner;
+public class miproyecto {
 	public static void main(String[] args) {
-		
+		Scanner scanner = new Scanner(System.in);
+		Scanner anios = new Scanner(System.in);
+		System.out.println("ingrese un numero del 1 al 12");
+		int mes = scanner.nextInt();
+	
+		if (mes == 11 || mes == 4 || mes==6 || mes==9){
+			System.out.println("el mes tiene 30 dias");
+		} else if (mes ==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes ==12){
+			System.out.println("el mes tiene 31 dias");
+		}  else if (mes == 2) {
+            System.out.println("Ingrese un año:");
+            int anio = scanner.nextInt();
+
+            if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)) {
+                System.out.println("El mes tiene 29 días (año bisiesto)");
+            } else {
+                System.out.println("El mes tiene 28 días");
+            }
+		}
 	}
-}
+}*/
+/* 
+//tp 2 ejercicio 3
+
+import java.util.Scanner;
+public class miproyecto {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("ingrese un numero mayor a 50");
+		int numero = scanner.nextInt();
+		if ((numero %2==0) || (numero%3==0)){
+			System.out.println(numero);
+		} else 
+		System.out.println("error");
+			
+		}
+
+		}*/
+
+		
